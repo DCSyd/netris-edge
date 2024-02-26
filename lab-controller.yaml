@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  host: aHR0cDovLzE5Mi4xNjguODYuMjE=
+  login: bmV0cmlz
+  password: bmV3TmV0MHBz
+kind: Secret
+metadata:
+  name: netris-creds
+  namespace: netris-operator
+type: Opaque
