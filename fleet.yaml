@@ -1,0 +1,5 @@
+defaultNamespace: netris-operator
+helm:
+  releaseName: netris-operator
+  repo: https://netrisai.github.io/charts
+  chart: netris-operator
